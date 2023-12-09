@@ -57,5 +57,17 @@ HomeAmazon ob = new HomeAmazon(driver);
 	 shots_withCurrentDateTime();
   }
   
+  @Test (groups = {"regression"})
+  public void Test3() throws InterruptedException, IOException {
+	  System.out.println("This is Test 1");
+	  
+HomeAmazon ob = new HomeAmazon(driver);
+     ob.enterEmail("abc@yahoo.com");
+     shots_withCurrentDateTime();
+	 Thread.sleep(5000);
+	 ob.enterPass("aaaaaaa");
+	 shots_withCurrentDateTime();
+  }
+  
   
 }
