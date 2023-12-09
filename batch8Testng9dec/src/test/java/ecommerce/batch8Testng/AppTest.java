@@ -12,6 +12,7 @@ public class AppTest
     /**
      * Rigorous Test :-)
      */
+	//this is new code
     @Test
     public void shouldAnswerWithTrue()
     {
